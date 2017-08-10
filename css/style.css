@@ -34,7 +34,7 @@ header {
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
-	z-index: 1;
+	z-index: 99;
 }
 
 header a.logo{
@@ -96,53 +96,7 @@ i {
 }
 
 
-
-
-
-
-
-
-/*Main Content*/
-
-main {
-	width: 100%;
-	margin: 0 5%;
-}
-
-
-/* About Cafe*/
-
-.about-cafe{
-	width: 30%;
-	float: left;
-	padding: 0 10px;
-	text-align: center;
-}
-
-
-.middle-section  {
-	width: 30%;
-	float: left;
-	padding: 0 10px;
-}
-
-
-.middle-section img {
-	width: 100%;
-}
-
-.opening-hours {
-	width: 30%;
-	float: left;
-	padding: 0 10px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.opening-hours img {
-	width: 100%;
-	margin-bottom: 20px;
-}
+/* Slider */
 
 #slider {
     overflow: hidden;
@@ -226,6 +180,64 @@ main {
 	padding: 10px;
 	border: 1px solid #fff;
 	font-family: 'Josefin Slab';
+}
 
 
+
+/*Main Content*/
+
+main {
+	margin: 0 5%;
+}
+
+.info{
+	width: 100%;
+}
+
+/* About Cafe*/
+
+.about-cafe{
+	width: 33%;
+	float: left;
+	padding: 0 10px;
+	text-align: center;
+}
+
+
+.middle-section  {
+	width: 33%;
+	float: left;
+	padding: 0 10px;
+}
+
+
+.middle-section img {
+	width: 100%;
+}
+
+.opening-hours {
+	width: 33%;
+	float: left;
+	padding: 0 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.opening-hours img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*Our coffee*/
+.our-coffee {
+	width: 100%;
+}
+
+.one-fourth{
+	width: 25%;
+	float: left;
+}
+
+.one-fourth img{
+	width: 90%;
 }
