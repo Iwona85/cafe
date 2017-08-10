@@ -190,14 +190,25 @@ main {
 	margin: 0 5%;
 }
 
-.info{
-	width: 100%;
-}
+
 
 /* About Cafe*/
 
+.section-headline {
+	width: 100%;
+	text-align: center;
+	font-family: 'Josefin Slab';
+	margin-top: 20px;
+}
+
+.info{
+	width: 100%;
+	position: relative;
+	height: 500px;
+}
+
 .about-cafe{
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	padding: 0 10px;
 	text-align: center;
@@ -205,7 +216,7 @@ main {
 
 
 .middle-section  {
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	padding: 0 10px;
 }
@@ -216,7 +227,7 @@ main {
 }
 
 .opening-hours {
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	padding: 0 10px;
 	margin: 0 auto;
@@ -229,15 +240,39 @@ main {
 }
 
 /*Our coffee*/
-.our-coffee {
+
+
+.fourth-columns {
 	width: 100%;
+	position: relative;
 }
 
 .one-fourth{
 	width: 25%;
 	float: left;
+	text-align: center;
+	padding: 0 10px;
+	font-family: 'Josefin Sans';
 }
 
 .one-fourth img{
-	width: 90%;
+	width: 70%;
+	margin: auto;
+}
+
+/*  How to find us */
+
+.three-columns {
+	width: 100%;
+}
+
+.one-three{
+	width: 33.33%;
+	float: left;
+	font-family: 'Josefin Sans';
+
+}
+
+.one-three img{
+	width: 15%;
 }
