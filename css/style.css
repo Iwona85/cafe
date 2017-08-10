@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	font-size: 16px;
+}
+
+#page{max-width: 1200px; margin: 0 auto; position: relative;}
+
+/* Texts */
+h1 {margin: 0 0 0.5em 0; font-size: 2.8em;}
+
+h2 {margin: 0 0 1em 0; font-size: 1.6em;}
+
+h3 {margin: 0 0 .5em 0; font-size: 1.3em;}
+
+p {margin: 0 0 1em 0}
+
+
+
+
+
+/* Header */
+
+header {
+	height: 80px;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	z-index: 1;
+}
+
+header a.logo{
+	position: relative; 
+	top: 15px;
+	left: 5%;
+	display: block; 
+	width: 139px;
+	height: 55px;
+	background: url(../img/Logo.png) no-repeat 0 0;
+
+}
+
+
+/*Navigation*/
+
+nav {
+    position: absolute;
+    display: inline-block;
+    left: 30%;
+    top: 25%;
+}
+
+nav ul {list-style: none;}
+
+nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	width: 100px;
+	padding: 10px;
+	color: #000;
+}
+
+nav ul li {
+	background-color: #fff;
+}
+
+nav > ul > li {float: left;}
+nav ul ul {
+	position: absolute;
+	display: none;
+}
+
+nav ul li:hover > ul {display: block;}
+
+
+
+/*Arrow sign in navigation*/
+i {
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 5px;
+  position: absolute;
+  top: 13px;
+}
+
+
+
+
+
+
+
+
+/*Main Content*/
+
+main {
+	width: 100%;
+	margin: 0 5%;
+}
+
+
+/* About Cafe*/
+
+.about-cafe{
+	width: 30%;
+	float: left;
+	padding: 0 10px;
+	text-align: center;
+}
+
+
+.middle-section  {
+	width: 30%;
+	float: left;
+	padding: 0 10px;
+}
+
+
+.middle-section img {
+	width: 100%;
+}
+
+.opening-hours {
+	width: 30%;
+	float: left;
+	padding: 0 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.opening-hours img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#slider {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+#slider figure{
+    width: 500%;
+    position: relative;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+@keyframes slider {
+    0%{left: 0%}
+    15%{left:0%;}
+    25%{ left: -100%; }
+    40% {left:-100%;}
+    50%{ left: -200%; }
+    65%{left: -200%}
+    75%{ left: -300%; }
+    90%{left:-300%;}
+    100%{ left: -400%; }
+}
+
+
+
+.text1{
+	position: absolute;
+	top: 150px;
+	left:1%;
+	z-index: 9;
+	color: #fff;
+	font-family: 'Josefin Slab';
+}
+
+.text2{
+	position: absolute;
+	top: 150px;
+	left: 21%;
+	z-index: 9;
+	color: #fff;
+	font-family: 'Josefin Slab';
+}
+
+.text3{
+	position: absolute;
+	top: 150px;
+	left: 41%;
+	z-index: 9;
+	color: #fff;
+	font-family: 'Josefin Slab';
+}
+
+.text4{
+	position: absolute;
+	top: 150px;
+	left: 61%;
+	z-index: 9;
+	color: #fff;
+	font-family: 'Josefin Slab';
+}
+
+.text5{
+	position: absolute;
+	top: 150px;
+	left: 81%;
+	z-index: 99;
+	color: #fff;
+	font-family: 'Josefin Slab';
+}
+
+#slider a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	border: 1px solid #fff;
+	font-family: 'Josefin Slab';
+
+
+}
