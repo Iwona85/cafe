@@ -257,7 +257,7 @@ main {
 
 .one-fourth img{
 	width: 70%;
-	margin: auto;
+	margin: 20px 0 15px 0;
 }
 
 /*  How to find us */
@@ -275,7 +275,7 @@ main {
 }
 
 .one-three img{
-	width: 15%;
+	width: 25%;
 }
 
 /*NAvigate to id*/
