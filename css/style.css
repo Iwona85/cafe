@@ -54,7 +54,7 @@ header a.logo{
 nav {
     position: absolute;
     display: inline-block;
-    left: 30%;
+    left: 50%;
     top: 25%;
 }
 
@@ -100,7 +100,7 @@ i {
 
 #slider {
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 #slider figure img {
@@ -198,7 +198,7 @@ main {
 	width: 100%;
 	text-align: center;
 	font-family: 'Josefin Slab';
-	margin-top: 20px;
+	margin: 20px 0;
 }
 
 .info{
@@ -275,4 +275,10 @@ main {
 
 .one-three img{
 	width: 15%;
+}
+
+/*NAvigate to id*/
+
+#contact, #menu, #coffee, #team, #info{
+	margin-bottom: 120px;
 }
