@@ -15,7 +15,7 @@ body{
 #page{max-width: 1200px; margin: 0 auto; position: relative;}
 
 /* Texts */
-h1 {margin: 0 0 0.5em 0; font-size: 2.8em;}
+h1 { font-size: 2.8em;}
 
 h2 {margin: 0 0 1em 0; font-size: 1.6em;}
 
@@ -198,7 +198,7 @@ main {
 	width: 100%;
 	text-align: center;
 	font-family: 'Josefin Slab';
-	margin: 20px 0;
+	margin-bottom: 50px;
 }
 
 .info{
@@ -270,6 +270,7 @@ main {
 	width: 33.33%;
 	float: left;
 	font-family: 'Josefin Sans';
+	text-align: center;
 
 }
 
