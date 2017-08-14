@@ -12,7 +12,11 @@ body{
 	font-size: 16px;
 }
 
-#page{max-width: 1200px; margin: 0 auto; position: relative;}
+#page{
+	max-width: 1200px; 
+	margin: 0 auto; 
+	position: relative;
+}
 
 /* Texts */
 h1 { font-size: 2.8em;}
@@ -21,7 +25,7 @@ h2 {margin: 0 0 1em 0; font-size: 1.6em;}
 
 h3 {margin: 0 0 .5em 0; font-size: 1.3em;}
 
-p {margin: 0 0 1em 0}
+p {margin: 0 0 1em 0; font-size: 1.2em;}
 
 
 
@@ -39,11 +43,11 @@ header {
 
 header a.logo{
 	position: relative; 
-	top: 15px;
+	top: 5px;
 	left: 5%;
 	display: block; 
-	width: 139px;
-	height: 55px;
+	width: 289px;
+	height: 75px;
 	background: url(../img/Logo.png) no-repeat 0 0;
 
 }
@@ -127,7 +131,13 @@ i {
     100%{ left: -400%; }
 }
 
+#slider h1{
+	margin-bottom: 30px;
+}
 
+#slider h2{
+	margin-bottom: 50px;
+}
 
 .text1{
 	position: absolute;
@@ -186,9 +196,6 @@ i {
 
 /*Main Content*/
 
-main {
-	margin: 0 5%;
-}
 
 
 
@@ -199,18 +206,20 @@ main {
 	text-align: center;
 	font-family: 'Josefin Slab';
 	margin-bottom: 50px;
+
 }
 
 .info{
-	width: 100%;
+	width: 90%;
 	position: relative;
-	height: 500px;
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .about-cafe{
 	width: 33.33%;
 	float: left;
-	padding: 0 10px;
 	text-align: center;
 }
 
@@ -229,8 +238,6 @@ main {
 .opening-hours {
 	width: 33.33%;
 	float: left;
-	padding: 0 10px;
-	margin: 0 auto;
 	text-align: center;
 }
 
@@ -243,8 +250,10 @@ main {
 
 
 .fourth-columns {
-	width: 100%;
+	width: 90%;
 	position: relative;
+	display: inline-block;
+	margin: 0 5%;
 }
 
 .one-fourth{
@@ -257,13 +266,15 @@ main {
 
 .one-fourth img{
 	width: 70%;
-	margin: 20px 0 15px 0;
 }
 
 /*  How to find us */
 
 .three-columns {
-	width: 100%;
+	width: 90%;
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .one-three{
@@ -283,3 +294,45 @@ main {
 #contact, #menu, #coffee, #team, #info{
 	margin-bottom: 120px;
 }
+
+
+
+/* SEND MESSAGE  */
+
+
+.background-image{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.background-image img{
+	width: 100%;
+
+}
+
+
+/* FORMULARZ */
+
+form{
+	width: 40%;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-top: 2%;
+	margin-left: 5%;
+	position: absolute;
+	padding: 15px;
+
+}
+
+input, textarea {
+	border: 1px solid black;
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+input[type=submit]{
+	background-color: #000;
+	color: #fff;
+
+}
+
