@@ -197,11 +197,7 @@ i {
 
 /*Main Content*/
 
-
-
-
 /* About Cafe*/
-
 .section-headline {
 	width: 100%;
 	text-align: center;
@@ -271,9 +267,22 @@ i {
 
 
 .one-fourth img{
-	width: 70%;
 	margin-bottom: 15px;
 	border: 2px solid #fff;
+	padding: 0 15px;
+}
+
+.one-fourth.coffee img{
+	width: 70%;
+}
+
+.one-fourth.coffee {
+	text-align: center;
+}
+
+
+.one-fourth.menu {
+	text-align: center;
 }
 
 /*  How to find us */
@@ -362,16 +371,59 @@ input[type=submit]{
 /* iPads (portrait and landscape) ----------- */
 @media screen and (max-width: 1024px){
 
+/*Our menu*/
+.one-fourth{
+	width: 50%;
+}
+
+/* FORMULARZ */
+.form-container{
+    width: 90%;
+}
+
+/* Team  */
+.image-inline-text{
+	float: left;
+}
+
+/* About Cafe*/
+.about-cafe{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+
+.middle-section  {
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+}
+
+
+.opening-hours {
+	width: 100%;
+	float: left;
+}
+
+.opening-hours img {
+	width: 100%;
+}
+
+}
+
+
+
+/* Large screen mobiles */
+@media only screen and (max-width: 767px){
+
 h4 {margin: 0 0 1em 0; font-size: 1.5em;}
 
 
 /* About Cafe*/
-
-
 .about-cafe{
 	width: 100%;
 }
-
 
 .middle-section  {
 	width: 100%;
@@ -380,7 +432,6 @@ h4 {margin: 0 0 1em 0; font-size: 1.5em;}
 .middle-section img {
 	margin-bottom: 15px;
 }
-
 
 .opening-hours {
 	width: 100%;
@@ -392,22 +443,14 @@ h4 {margin: 0 0 1em 0; font-size: 1.5em;}
 
 
 /* Team  */
-
 .one-fourth.team{
 	width: 100%;
 	text-align: center;
 }
 
-/*Our menu*/
 
-.one-fourth{
-	width: 50%;
-	text-align: center;
-}
 
 /*  How to find us */
-
-
 .one-three{
 	width: 100%;
 }
@@ -417,26 +460,11 @@ h4 {margin: 0 0 1em 0; font-size: 1.5em;}
 	margin: 25px 0 10px 0;
 }
 
-	/* FORMULARZ */
-
-.form-container{
-    width: 90%;
-}
-
+/* FORMULARZ */
 form {
     padding: 15px;
     margin: 12px 0;
 }
-
-
-
-}
-
-
-
-/* Large screen mobiles */
-@media only screen and (max-width: 767px){
-
 
 
 
@@ -449,24 +477,19 @@ form {
 @media only screen and (max-width: 480px) {
 	
 
-	/* Texts */
+/* Texts */
 h1 { margin: 0 0 .3em 0; font-size: 1.5em;}
 
 h2 {margin: 0 0 .5em 0; font-size: 1.2em;}
 
 h3 {margin: 0 0 .5em 0; font-size: 1em;}
 
-h4 { margin: 0 0 1em 0; }
+h4 { margin: 0 0 1em 0; font-size: .9em; }
 
 p {margin: 0 0 1em 0; font-size: .8em;}
 
-	/* FORMULARZ */
 
-.form-container{
-    width: 80%;
-}
-
-
+/* FORMULARZ */
 form {
     padding: 15px;
     margin: 15px 0;
@@ -479,13 +502,8 @@ input, textarea {
 	margin: 1px 0;
 }
 
-/* Team*/
-
-
-
 
 /*Our menu*/
-
 .one-fourth{
 	width: 100%;
 }
