@@ -42,35 +42,55 @@
 
 <div id="slider">
     <figure>
-            <img src="img/3.jpg" alt="image1">
+            <picture>
+              <source media="(min-width: 650px)" srcset="img/3.jpg">
+              <source media="(max-width: 480px)" srcset="img/3-media.jpg">
+              <img src="img/3.jpg" alt="image3">
+            </picture>
             <div class="text1">
                 <h1>Until you try, <br>you will not <br>understand anything</h1>
                 <h2>Creative Cafe</h2>
                 <a href="#">Check it</a>
             </div>
 
-            <img src="img/2.jpg" alt="image1">
+            <picture>
+              <source media="(min-width: 650px)" srcset="img/2.jpg">
+              <source media="(max-width: 480px)" srcset="img/2-media.jpg">
+              <img src="img/2.jpg" alt="image2">
+            </picture>
             <div class="text2">
                 <h1>The most delicious<br> in our cafe</h1>
                 <h2>Delicious Coffee</h2>
                 <a href="#">Check it</a>
             </div>
 
-            <img src="img/12.jpg" alt="image1">
+            <picture>
+              <source media="(min-width: 650px)" srcset="img/12.jpg">
+              <source media="(max-width: 480px)" srcset="img/12-media.jpg">
+              <img src="img/12.jpg" alt="image12">
+            </picture>
             <div class="text3">
                 <h1>Delicate and <br>tasty dessert</h1>
                 <h2>Creative Restaurant</h2>
                 <a href="#">Check it</a>
             </div>
 
-            <img src="img/1.jpg" alt="image1">
+            <picture>
+              <source media="(min-width: 650px)" srcset="img/1.jpg">
+              <source media="(max-width: 480px)" srcset="img/1-media.jpg">
+              <img src="img/1.jpg" alt="image1">
+            </picture>
             <div class="text4">
                 <h1>Waiting for you <br> with our cozy cafe</h1>
                 <h2>Pleasant Dessert</h2>
                 <a href="#">Check it</a>
             </div>
 
-            <img src="img/3.jpg" alt="image1">
+            <picture>
+              <source media="(min-width: 650px)" srcset="img/3.jpg">
+              <source media="(max-width: 480px)" srcset="img/3-media.jpg">
+              <img src="img/3.jpg" alt="image3">
+            </picture>
             <div class="text1">
                 <h1>Until you try, <br>you will not <br>understand anything</h1>
                 <h2>Creative Cafe</h2>
@@ -87,7 +107,7 @@
 <div  class="section-headline"><h1>Info</h1></div>
 <section  class="info">
     <div class="about-cafe">
-        <h1>About Cafe</h1>
+        <h1>About Cappuccino</h1>
         <h3> Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur.</h3>
         <p> Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -118,7 +138,11 @@
 <div  class="section-headline"><h1>Our Team</h1></div>
 <section class="fourth-columns">
     <div class="one-fourth" style="padding: 0;">
-    <img  style="width: 100%;" src="img/person2.jpg">
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/person2.jpg">
+          <source media="(max-width: 480px)" srcset="img/person2-media.jpg">
+          <img src="img/person2.jpg" alt="Person2" style="width: 100%;">
+        </picture>
     </div>
 
     <div class="one-fourth" style="text-align: left;">
@@ -128,8 +152,11 @@
     </div>
 
     <div class="one-fourth" style="padding: 0;">
-    <img style="width: 100%;" src="img/person1.jpg">
-
+         <picture>
+              <source media="(min-width: 650px)" srcset="img/person1.jpg">
+              <source media="(max-width: 480px)" srcset="img/person1-media.jpg">
+              <img src="img/person1.jpg" alt="Person1" style="width: 100%;">
+        </picture>
     </div>
 
     <div class="one-fourth" style="text-align: left;">
@@ -282,17 +309,23 @@
 
 <div class="form-container">
 <form action="#" method="post">
-    <h2>We’d love to hear from you!</h2>
-    <input type="text" name="name" placeholder="Name" required><br>
-    <input type="email" name="email" placeholder="E-mail"><br>
-    <input type="text" name="phone" placeholder="Phone"><br>
-    <textarea placeholder="Your message" rows="4" name="message"></textarea><br>
-    <input type="submit" name="submit" value="Wyślij">
+    <fieldset>
+        <h2>We’d love to hear from you!</h2>
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="email" name="email" placeholder="E-mail"><br>
+        <input type="text" name="phone" placeholder="Phone"><br>
+        <textarea placeholder="Your message" rows="4" name="message"></textarea><br>
+        <input type="submit" name="submit" value="Wyślij">
+    </fieldset>
 </form>
 </div>
 
 <div class="background-image">
-    <img src="img/19.jpg">
+    <picture>
+      <source media="(min-width: 650px)" srcset="img/19.jpg">
+      <source media="(max-width: 480px)" srcset="img/19-media.jpg">
+      <img src="img/19.jpg" alt="Flowers">
+    </picture>
 </div>
 
 
