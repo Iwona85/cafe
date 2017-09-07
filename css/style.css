@@ -59,7 +59,7 @@ header a.logo{
 nav {
     position: absolute;
     display: inline-block;
-    left: 50%;
+    left: 40%;
     top: 25%;
 }
 
@@ -72,6 +72,7 @@ nav ul li a{
 	width: 100px;
 	padding: 10px;
 	color: #000;
+	width: 130px;
 }
 
 nav ul li {
