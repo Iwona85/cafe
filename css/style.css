@@ -261,13 +261,19 @@ i {
 	width: 25%;
 	float: left;
 	text-align: center;
-	padding: 0 5%;
 	font-family: 'Josefin Sans';
 }
+
+.one-fourth{
+	text-align: left;
+}
+
+
 
 .one-fourth img{
 	width: 70%;
 	margin-bottom: 15px;
+	border: 2px solid #fff;
 }
 
 /*  How to find us */
@@ -356,6 +362,71 @@ input[type=submit]{
 /* iPads (portrait and landscape) ----------- */
 @media screen and (max-width: 1024px){
 
+h4 {margin: 0 0 1em 0; font-size: 1.5em;}
+
+
+/* About Cafe*/
+
+
+.about-cafe{
+	width: 100%;
+}
+
+
+.middle-section  {
+	width: 100%;
+}
+
+.middle-section img {
+	margin-bottom: 15px;
+}
+
+
+.opening-hours {
+	width: 100%;
+}
+
+.opening-hours img {
+	display: none;
+}
+
+
+/* Team  */
+
+.one-fourth.team{
+	width: 100%;
+	text-align: center;
+}
+
+/*Our menu*/
+
+.one-fourth{
+	width: 50%;
+	text-align: center;
+}
+
+/*  How to find us */
+
+
+.one-three{
+	width: 100%;
+}
+
+.one-three img{
+	width: 20%;
+	margin: 25px 0 10px 0;
+}
+
+	/* FORMULARZ */
+
+.form-container{
+    width: 90%;
+}
+
+form {
+    padding: 15px;
+    margin: 12px 0;
+}
 
 
 
@@ -408,17 +479,9 @@ input, textarea {
 	margin: 1px 0;
 }
 
-/*  How to find us */
+/* Team*/
 
 
-.one-three{
-	width: 100%;
-}
-
-.one-three img{
-	width: 20%;
-	margin: 25px 0 10px 0;
-}
 
 
 /*Our menu*/
@@ -428,32 +491,9 @@ input, textarea {
 }
 
 
-/* About Cafe*/
 
 
-.about-cafe{
-	width: 100%;
-}
-
-
-.middle-section  {
-	width: 100%;
-}
-
-.middle-section img {
-	margin-bottom: 15px;
-}
-
-
-.opening-hours {
-	width: 100%;
-}
-
-.opening-hours img {
-	display: none;
-}
-
-
+/* Slider  */
 .text1, .text2, .text3, .text4{
 	position: absolute;
 	top: 100px;
