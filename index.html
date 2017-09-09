@@ -13,7 +13,7 @@
 
 <header>
     <a class="logo" href="index.html" title="cafe"></a>
-    <nav>
+    <nav class="topnav" id="navigation">
         <ul>
             <li>
                 <a href="#" title="About Us">About us<i> </i></a>
@@ -35,24 +35,18 @@
                     <li><a href="#send-message" title="Sublink 3">Send Message</a></li>
                 </ul>
             </li>
+            <li>
+                <a href="javascript:void(0);" style="font-size:24px; padding: 5px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
         </ul> 
     </nav>
 </header>
 
-<!--
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="hidden-for-mobile" title="home" class="active">HOMEPAGE</a>
-  <a href="blog.html" title="blog">BLOG</a>
-  <a href="travel.html" title="travel">TRAVEL</a>
-  <a href="design.html" title="design">DESIGN</a>
-  <a href="projects.html" title="projects">PROJECTS</a>
-  <a href="contact.html" title="contact">CONTACT</a>
-  <a href="javascript:void(0);" style="font-size:24px; padding: 5px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+
 
 <script type="text/javascript">  
     function myFunction() {
-    var x = document.getElementById("myTopnav");
+    var x = document.getElementById("navigation");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
@@ -60,7 +54,7 @@
     }
 }  
 </script> 
--->
+
 
 <div id="slider">
     <figure>

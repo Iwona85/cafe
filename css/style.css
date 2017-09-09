@@ -44,9 +44,9 @@ header {
 
 header a.logo{
 	position: relative; 
+	float: left;
 	top: 5px;
 	left: 5%;
-	display: block; 
 	width: 289px;
 	height: 75px;
 	background: url(../img/Logo.png) no-repeat 0 0;
@@ -56,36 +56,38 @@ header a.logo{
 
 /*Navigation*/
 
-nav {
-    position: absolute;
-    display: inline-block;
-    left: 40%;
-    top: 25%;
+.topnav{
+    position: relative;
+    top: 27px;
+    float: right;
 }
 
-nav ul {list-style: none;}
+.topnav ul {list-style: none;}
 
-nav ul li a{
+.topnav ul li a{
 	display: inline-block;
 	text-decoration: none;
 	position: relative;
-	width: 100px;
 	padding: 10px;
 	color: #000;
 	width: 130px;
 }
 
-nav ul li {
+.topnav ul li {
 	background-color: #fff;
 }
 
-nav > ul > li {float: left;}
-nav ul ul {
+.topnav > ul > li {float: left;}
+.topnav ul ul {
 	position: absolute;
 	display: none;
 }
 
-nav ul li:hover > ul {display: block;}
+.topnav ul li:hover > ul {display: block;}
+
+.topnav .icon {
+  display: none;
+}
 
 
 
@@ -418,6 +420,43 @@ input[type=submit]{
 
 /* Large screen mobiles */
 @media only screen and (max-width: 767px){
+
+/* nawigacja  */
+
+
+.topnav  ul li a {display: none;}
+.topnav   ul li a.icon {
+    display: block;
+    color: green;
+    width: auto;
+    margin-right: 30px;
+}
+
+.topnav.responsive {position: relative;}
+
+.topnav.responsive .icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.topnav.responsive ul li a {
+display: block;
+}
+
+.topnav.responsive ul:first-child  {
+margin-top: 40px;
+}
+
+
+
+.topnav.responsive > ul > li:not(:last-child) {float: none; height: 105px;}
+.topnav.responsive ul ul {
+	display: block;
+	margin-left: 10px;
+}
+
+
 
 h4 {margin: 0 0 1em 0; font-size: 1.5em;}
 
