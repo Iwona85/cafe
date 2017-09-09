@@ -58,7 +58,7 @@ header a.logo{
 
 .topnav{
     position: relative;
-    top: 27px;
+    top: 25px;
     float: right;
 }
 
@@ -427,7 +427,6 @@ input[type=submit]{
 .topnav  ul li a {display: none;}
 .topnav   ul li a.icon {
     display: block;
-    color: green;
     width: auto;
     margin-right: 30px;
 }
